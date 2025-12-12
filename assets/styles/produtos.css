@@ -93,8 +93,3 @@
   transform: translateY(-5px);
 }
 
-.veja-mais .btn {
-  background-color: var(--cor-terciaria); /* cor fixa */
-  color: black; /* cor do texto */
-  transition: none; /* remove efeito hover */
-}
