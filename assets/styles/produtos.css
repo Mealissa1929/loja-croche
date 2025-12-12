@@ -16,9 +16,6 @@
 
 /* --- Layout da grid --- */
 .cards-row {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 cards por linha */
-  gap: 20px; /* espaçamento entre cards */
   margin: 20px 0;
 }
 
