@@ -1,8 +1,4 @@
-.card {
-    display: inline-block;
-    vertical-align: top;
-    margin: 10px;
-}
+
 
 .card:active {
     box-shadow: 0 5px 5px rgba(0,0,0,0.15);
@@ -24,4 +20,5 @@
     border: none;
     cursor: pointer;
 }
+
 
