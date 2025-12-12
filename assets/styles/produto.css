@@ -21,4 +21,16 @@
     cursor: pointer;
 }
 
+.btn-voltar-topo {
+    background-color: var(--cor-secundaria) !important;
+    color: #fff !important;
+    border: none;
+    transition: 0.3s ease;
+}
+
+.btn-voltar-topo:hover {
+    background-color: var(--cor-terciaria) !important;
+    color: #fff !important;
+}
+
 
