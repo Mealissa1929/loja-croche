@@ -2,459 +2,478 @@
 <html lang="pt-br">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="shortcut icon" href="assets/images/logo/logo-s.png" type="image/png">
+    <link rel="shortcut icon" href="assets/images/logo/logo-s.png" type="image/png">
 
-  <title>Brenda Melissa Artesã</title>
+    <title>Brenda Melissa Artesã</title>
 
-  <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/styles/bootstrap.min.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/styles/app.css">
+    <link rel="stylesheet" href="assets/styles/app.css">
     <link rel="stylesheet" href="assets/styles/produto.css">
-  <link rel="stylesheet" href="assets/styles/produtos.css">
+    <link rel="stylesheet" href="assets/styles/produtos.css">
 
 </head>
 
 <body>
 
-  <!-- cabeçalho principal -->
-  <header class="bg-cor-secundaria">
+    <!-- cabeçalho principal -->
+    <header class="bg-cor-secundaria">
 
-    <div class="container">
+        <div class="container">
 
-      <div class="row g-3">
+            <div class="row g-3">
 
-        <div class="col-lg-2 my-4 text-center text-lg-start">
-         <a href="index.html"><img src="assets/images/logo/logo.png" alt="" width="100"></a>
-        </div>
+                <div class="col-lg-2 my-4 text-center text-lg-start">
+                    <a href="index.html"><img src="assets/images/logo/logo.png" alt="" width="100"></a>
+                </div>
 
-        <div class="col-lg-7 my-4 d-flex align-items-center">
-          <form action="" class="site-search w-100">
+                <div class="col-lg-7 my-4 d-flex align-items-center">
+                    <form action="" class="site-search w-100">
 
-            <div class="input-group">
-              <input type="text" class="form-control rounded-pill py-2 px-4 pe-5" placeholder="busque aqui...">
-              <button class="btn position-absolute"> <i class="bi bi-search"></i> </button>
+                        <div class="input-group">
+                            <input type="text" class="form-control rounded-pill py-2 px-4 pe-5"
+                                placeholder="busque aqui...">
+                            <button class="btn position-absolute"> <i class="bi bi-search"></i> </button>
+                        </div>
+
+                    </form>
+                </div>
+
+                <div class="col-lg-3 d-flex align-items-center justify-content-end">
+
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#"><i class="bi bi-person-fill"></i> entrar</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-primary" href="#"><i class="bi bi-cart-fill position-relative">
+                                    <span
+                                        class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle">3
+                                    </span>
+                                </i> carrinho</a>
+                        </li>
+                    </ul>
+
+                </div>
+
             </div>
 
-          </form>
         </div>
 
-        <div class="col-lg-3 d-flex align-items-center justify-content-end">
+    </header>
+    <!-- /cabeçalho principal -->
 
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link text-primary" href="#"><i class="bi bi-person-fill"></i> entrar</a>
-            </li>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-cor-primaria sticky-top">
 
-            <li class="nav-item">
-              <a class="nav-link text-primary" href="#"><i class="bi bi-cart-fill position-relative">
-                  <span class="badge position-absolute top-0 start-100 translate-middle bg-danger rounded-circle">3
-                  </span>
-                </i> carrinho</a>
-            </li>
-          </ul>
+        <div class="container">
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
+                <i class="navbar-toggler-icon"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu-principal">
+
+                <ul class="navbar-nav ">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">DIY</a>
+
+                        <ul class="dropdown-menu ">
+                            <li><a class="dropdown-item" href="produtos.html">Produtos</a></li>
+                            <li><a class="dropdown-item" href="Linhas.html">Linhas</a></li>
+                            <li><a class="dropdown-item" href="Agulhas.html">Agulhas</a></li>
+                            <li><a class="dropdown-item" href="Kits.html">Kits</a></li>
+
+                        </ul>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Presentes.html">Presentes</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- /.navbar -->
+
+    <section class="slideshow">
+
+        <div class="container">
+
+            <div id="carousel" class="carousel slide">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/images/banner/banner_1.png" class="d-block w-100" alt="">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="assets/images/banner/banner_2.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+                <!-- /.carousel-inner -->
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+
+            </div>
 
         </div>
 
-      </div>
+    </section>
+    <!-- /.slideshow -->
 
-    </div>
+    <section class="banners mt-4">
 
-  </header>
-  <!-- /cabeçalho principal -->
+        <div class="container">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-cor-primaria sticky-top">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="assets/images/banner/parcela.png" class="d-block w-100" alt="">
+                </div>
 
-    <div class="container">
+                <div class="col-md-6">
+                    <img src="assets/images/banner/entrega.png" class="d-block w-100" alt="">
+                </div>
 
-      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-principal">
-        <i class="navbar-toggler-icon"></i>
-      </button>
+            </div>
 
-      <div class="collapse navbar-collapse" id="menu-principal">
-
-        <ul class="navbar-nav ">
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">DIY</a>
-
-            <ul class="dropdown-menu ">
-               <li><a class="dropdown-item" href="produtos.html">Produtos</a></li>
-              <li><a class="dropdown-item" href="Linhas.html">Linhas</a></li>
-              <li><a class="dropdown-item" href="Agulhas.html">Agulhas</a></li>
-              <li><a class="dropdown-item" href="Kits.html">Kits</a></li>
-             
-            </ul>
-
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="Presentes.html">Presentes</a>
-          </li>
-
-        </ul>
-
-      </div>
-    </div>
-  </nav>
-  <!-- /.navbar -->
-
-  <section class="slideshow">
-
-    <div class="container">
-
-      <div id="carousel" class="carousel slide">
-
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="assets/images/banner/banner_1.png" class="d-block w-100" alt="">
-          </div>
-
-          <div class="carousel-item">
-            <img src="assets/images/banner/banner_2.png" class="d-block w-100" alt="">
-          </div>
-        </div>
-        <!-- /.carousel-inner -->
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Próximo</span>
-        </button>
-
-      </div>
-
-    </div>
-
-  </section>
-  <!-- /.slideshow -->
-
-  <section class="banners mt-4">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-md-6">
-          <img src="assets/images/banner/parcela.png" class="d-block w-100" alt="">
         </div>
 
-        <div class="col-md-6">
-          <img src="assets/images/banner/entrega.png" class="d-block w-100" alt="">
+    </section>
+    <!-- /.banners -->
+
+    <section class="mais-populares mt-5 text-center">
+        <div class="container">
+            <h2>Mais populares</h2>
+        </div>
+    </section>
+    <!-- /.mais-populares -->
+
+    <main class="produtos">
+        <div class="container">
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/agulha_cabo_madeira.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Agulha de cabo madeira</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 25,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit_snoop.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Snoop</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 90,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit_looney_tunes.jpg" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Looney Tunes</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 100,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/linha_Anne_misto_azul.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Linha Anne Misto Azul</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 25,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit-piupiu.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Piupiu</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 60,00</p>
+                            <a href="#" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 6 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit_tartaruga.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Tarturaga</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 70,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 7 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit_turma_do_harry_potter.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit Harry Potter</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 150,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 8 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/kit-agulhas-croche-aluminio-coloridas.webp"
+                            class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit agulhas coloridas</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 50,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 9 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/agulha_kit_cabo_emborachado.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Kit cabo emborrachado</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 25,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 10 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/agulha_kit_cabo_tulip.png" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Agulha Tulipa</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 20,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 11 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/linha_Anne_branca_dourada.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Linha Anne Branca Dourada</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 25,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 12 -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card produtos">
+                        <img src="assets/images/produtos/linha_ami_natal_brilho.webp" class="card-img-top" alt="">
+                        <div class="linha-separadora"></div>
+                        <div class="card-body">
+                            <h5 class="card-title">Linha Colorida Brilho</h5>
+                            <p class="stars">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                            </p>
+                            <p class="price">R$ 60,00</p>
+                            <a href="produto.html" class="btn-card">Veja mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <!-- /.produtos -->
+
+    <section class="container veja-mais">
+
+        <div class="d-flex justify-content-center my-5">
+            <div class="btn btn-lg btn-warning text-uppercase rounded-pill px-4">veja mais</div>
         </div>
 
-      </div>
+    </section>
+    <!-- /.veja-mais -->
 
-    </div>
 
-  </section>
-  <!-- /.banners -->
+    <footer class="bg-cor-secundaria text-white">
 
-  <section class="mais-populares mt-5 text-center">
-    <div class="container">
-      <h2>Mais populares</h2>
-    </div>
-  </section>
-  <!-- /.mais-populares -->
+        <div class="container py-5">
 
- <main class="produtos">
-  <div class="container">
-    <div class="row g-4">
+            <div class="row">
 
-      <!-- Card 1 -->
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card produtos">
-        <img src="assets/images/produtos/agulha_cabo_madeira.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Agulha de cabo madeira</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 25,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-         </div>
+                <div class="col-md-3">
 
-      <!-- Card 2 -->
-       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit_snoop.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit Snoop</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 90,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-       </div>
+                    <h5 class="text-primary">Atendimento</h5>
 
-      <!-- Card 3 -->
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit_looney_tunes.jpg" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit Looney Tunes</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 100,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-         </div>
+                    <ul>
+                        <li>(11) 999999999</li>
+                        <li>email@gmail.com</li>
+                        <li>Horário de atendimento:</li>
 
-      <!-- Card 4 -->
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
-      <div class="card produtos">
-        <img src="assets/images/produtos/linha_Anne_misto_azul.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Linha Anne Misto Azul</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 25,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
+                        <li>Segunda a sexta das 09h00 as 17h00</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5 class="text-primary">Acesso rápido</h5>
+
+                    <ul>
+                        <li>Minha conta </li>
+                        <li>Meus pedidos</li>
+                        <li>Rastrear meus pedidos</li>
+                        <li>Troca devolução</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3">
+
+                    <h5 class="text-primary">Instituicional</h5>
+
+                    <ul>
+                        <li>Sobre a loja</li>
+                        <li>Política e privacidade</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-5 mb-md-0">
+
+                    <h5 class="text-primary">Mais acessados</h5>
+
+                    <ul>
+                        <li>Kit Snoop</li>
+                        <li>Agulha de Madeira</li>
+                        <li>Linha anne dourada branca </li>
+                        <li>Kit agulha tulip</li>
+
+                    </ul>
+                </div>
+
+            </div>
+
         </div>
 
-      <!-- Card 5 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit-piupiu.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit Piupiu</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 60,00</p>
-          <a href="#" class="btn-card">Veja mais</a>
-        </div>
-      </div>
+    </footer>
 
-      <!-- Card 6 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit_tartaruga.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit Tarturaga</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 70,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 7 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit_turma_do_harry_potter.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit Harry Potter</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 150,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 8 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/kit-agulhas-croche-aluminio-coloridas.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit agulhas coloridas</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 50,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 9 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/agulha_kit_cabo_emborachado.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Kit cabo emborrachado</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 25,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 10 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/agulha_kit_cabo_tulip.png" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Agulha Tulipa</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 20,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 11 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/linha_Anne_branca_dourada.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Linha Anne Branca Dourada</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 25,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-      <!-- Card 12 -->
-      <div class="card produtos">
-        <img src="assets/images/produtos/linha_ami_natal_brilho.webp" class="card-img-top" alt="">
-        <div class="linha-separadora"></div>
-        <div class="card-body">
-          <h5 class="card-title">Linha Colorida Brilho</h5>
-          <p class="stars">
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-            <i class="bi bi-star-fill"></i>
-          </p>
-          <p class="price">R$ 60,00</p>
-          <a href="produto.html" class="btn-card">Veja mais</a>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</main>
-
-
-  <!-- /.produtos -->
-
-  <section class="container veja-mais">
-
-    <div class="d-flex justify-content-center my-5">
-      <div class="btn btn-lg btn-warning text-uppercase rounded-pill px-4">veja mais</div>
-    </div>
-
-  </section>
-  <!-- /.veja-mais -->
-
-
- <footer class="bg-cor-secundaria text-white">
-
-    <div class="container py-5">
-
-      <div class="row">
-
-        <div class="col-md-3">
-
-          <h5 class="text-primary">Atendimento</h5>
-
-          <ul>
-            <li>(11) 999999999</li>
-            <li>email@gmail.com</li>
-            <li>Horário de atendimento:</li>
-
-            <li>Segunda a sexta das 09h00 as 17h00</li>
-          </ul>
-        </div>
-
-        <div class="col-md-3">
-
-          <h5 class="text-primary">Acesso rápido</h5>
-
-          <ul>
-            <li>Minha conta </li>
-            <li>Meus pedidos</li>
-            <li>Rastrear meus pedidos</li>
-            <li>Troca devolução</li>
-          </ul>
-        </div>
-
-        <div class="col-md-3">
-
-          <h5 class="text-primary">Instituicional</h5>
-
-          <ul>
-            <li>Sobre a loja</li>
-            <li>Política e privacidade</li>
-      
-          </ul>
-        </div>
-
-        <div class="col-md-3 mb-5 mb-md-0">
-
-          <h5 class="text-primary">Mais acessados</h5>
-
-          <ul>
-            <li>Kit Snoop</li>
-            <li>Agulha de Madeira</li>
-            <li>Linha anne dourada branca </li>
-            <li>Kit agulha tulip</li>
-
-          </ul>
-        </div>
-
-      </div>
-
-    </div>
-
-  </footer>
-
-  <script src="assets/scripts/bootstrap.bundle.min.js"></script>
+    <script src="assets/scripts/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
